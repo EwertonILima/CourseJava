@@ -1,6 +1,6 @@
 package outrosTopicosBasicos;
 
-public class Exemplo_3_FuncoesParaString {
+public class Exemplo_Trim_FuncoesParaString {
 
 	public static void main(String[] args) {
 		

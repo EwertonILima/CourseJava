@@ -1,6 +1,6 @@
 package outrosTopicosBasicos;
 
-public class Exemplo_2_FuncoesParaString {
+public class Exemplo_UpperCase_FuncoesParaString {
 
 	public static void main(String[] args) {
 		
