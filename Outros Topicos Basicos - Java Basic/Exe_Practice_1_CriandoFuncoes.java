@@ -2,7 +2,7 @@ package outrosTopicosBasicos;
 
 import java.util.Scanner;
 
-public class Exe_Pratice_1_CriandoFuncoes {
+public class Exe_Practice_1_CriandoFuncoes {
 
 	public static void main(String[] args) {
 		
