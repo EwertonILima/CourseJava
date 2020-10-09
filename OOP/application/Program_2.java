@@ -38,10 +38,7 @@ public class Program_2 {
 		product.removeProducts(quantity);
 		
 		System.out.println();
-		System.out.println("Updated data: " + product);
-		
-		
-		
+		System.out.println("Updated data: " + product);		
 		
 		
 		sc.close();
