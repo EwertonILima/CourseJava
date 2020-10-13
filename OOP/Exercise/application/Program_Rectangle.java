@@ -12,20 +12,16 @@ public class Program_Rectangle {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 
-		Rectangle x;
-		x = new Rectangle();
+		Rectangle x = new Rectangle();
 
 		System.out.println("Enter rectangle width and height: ");
 		x.width = sc.nextDouble();
 		x.height = sc.nextDouble();
 
-		double area = x.area();
-		double perimeter = x.perimeter();
-		double diagonal = x.diagonal();
 
-		System.out.printf("Area = %.2f%n", area);
-		System.out.printf("Perimeter = %.2f%n", perimeter);
-		System.out.printf("Diagonal = %.2f", diagonal);
+		System.out.printf("Area = %.2f%n", x.area());
+		System.out.printf("Perimeter = %.2f%n", x.perimeter());
+		System.out.printf("Diagonal = %.2f", x.diagonal());
 
 		sc.close();
 	}

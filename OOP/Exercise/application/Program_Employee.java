@@ -13,6 +13,7 @@ public class Program_Employee {
 		Scanner sc = new Scanner(System.in);
 		
 		Employee employee = new Employee();
+		
 		System.out.println("Enter Employee data:");
 		System.out.print("Name: ");
 		employee.name = sc.nextLine();
@@ -23,7 +24,6 @@ public class Program_Employee {
 		
 		System.out.println();
 		System.out.println("Employee: " + employee);
-		
 		System.out.println();
 		System.out.print("Wich percentage to increase salary? ");
 		double percentage = sc.nextDouble();
@@ -31,7 +31,6 @@ public class Program_Employee {
 		
 		System.out.println();
 		System.out.println("Updated data: " + employee);
-		
 		
 		sc.close();
 	}
