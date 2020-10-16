@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 import entities.Product;
 
-public class Program_2 {
+public class Program_Product {
 
 	public static void main(String[] args) {
 		
