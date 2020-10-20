@@ -22,10 +22,6 @@ public class Bank {
 		return accountId;
 	}
 	
-	public void setAccountId(String accountId) {
-		this.accountId = accountId;
-	}
-	
 	public String getHolder() {
 		return holder;
 	}
