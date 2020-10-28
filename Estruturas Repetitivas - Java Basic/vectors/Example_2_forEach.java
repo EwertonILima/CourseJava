@@ -11,8 +11,10 @@ public class Example_2_forEach {
 			System.out.println(vectString[i]);
 		}
 		
-		System.out.println("------------String-------For Each:");
+		System.out.println("------------String----------------");
 		
+		System.out.println();
+		System.out.println("For Each:");
 		for(String forEach : vectString) {
 			System.out.println(forEach);
 		}
