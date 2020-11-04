@@ -18,5 +18,4 @@ public class Exe_For_1 {
 		
 		sc.close();
 	}	
-
 }
