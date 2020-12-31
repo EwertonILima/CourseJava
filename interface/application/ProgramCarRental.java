@@ -26,7 +26,7 @@ public class ProgramCarRental {
 		System.out.print("Pickup (dd/MM/yyyy hh:ss): ");
 		try{
 			Date start = sdf.parse(sc.nextLine());
-			System.out.print("Return (dd/MM/yyyy): ");
+			System.out.print("Return (dd/MM/yyyy hh:ss)): ");
 			Date finish = sdf.parse(sc.nextLine());
 			
 			CarRental cr = new CarRental(start, finish, new Vehicle(carModel));
